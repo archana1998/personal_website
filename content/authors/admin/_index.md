@@ -56,9 +56,9 @@ social:
   link: https://github.com/archana1404
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -70,5 +70,14 @@ email: ""
 #- Visitors
 ---
 
-Hi! I am Archana Swaminathan, a final year undergraduate student at BITS Pilani, Hyderabad. I am currently working as a Visiting Researcher with the V-SENSE Research Group, Trinity College Dublin.
+Hi! I am Archana Swaminathan, a final year undergraduate student at BITS Pilani, Hyderabad, India. I am currently working as a Visiting Researcher with the [V-SENSE Research Group, Trinity College Dublin.] (https://v-sense.scss.tcd.ie/), and being mentored by [Prof. Aljosa Smolic] (https://v-sense.scss.tcd.ie/?profile=prof-aljosa-smolic).
+I'm part of a group that is investigating 3D Geometry for Deep Learning, where we focus on applications that extend to Image-based reconstruction, pose estimation and visual computing.  
+
+In the past, I've had experience with working with Deep Learning in many projects, some of which are: predictive modelling for time series data, image encryption and decryption, image superresolution, semantic segmentation and object recognition. 
+
+I'm very interested in research in the areas of Image Processing and Computer Vision, and wish to explore different applications in these fields as I motivate and prepare myself for a career as a researcher.
+
+I'm actively looking for Research Assistantship / PhD opportunities starting fall 2021. Do get in touch with me if you're up for a chat!
+
+
 
