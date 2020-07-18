@@ -47,7 +47,7 @@ social:
   link: 'mailto:swaminathan.archana11@gmail.com'  
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/archana1404/
+  link: https://www.linkedin.com/in/archana1404/
 #- icon: google-scholar
 #  icon_pack: ai
 #  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
