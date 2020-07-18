@@ -18,27 +18,32 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "Visiting Researcher"
+  company = "V-SENSE, Trinity College Dublin"
+  company_url = "https://v-sense.scss.tcd.ie/"
+  location = "Dublin, Ireland"
+  date_start = "2020-05-01"
   date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+  description = """ Working under the guidance of Prof. Aljosa Smolic in his team of 20+ researchers in the V-SENSE group, in the domain of 3D Geometry and Deep learning, as part of my undergraduate thesis.
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Summer Research Intern"
+  company = "Robert Bosch R&D"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Bengaluru, India"
+  date_start = "2019-05-18"
+  date_end = "2019-07-25"
+  description = """Worked on building Computer Vision algorithms for deployment of an end-to-end solution for product classification using very little training data.
+"""
+
+[[experience]]
+  title = "Summer Intern"
+  company = "NTCL Western Regional Office"
+  company_url = ""
+  location = "Mumbai, India"
+  date_start = "2018-05-15"
+  date_end = "2018-07-15"
+  description = """Developed a forecasting and predicting model for the finance department of the company, as part of Practice School 1."""
 
 +++
