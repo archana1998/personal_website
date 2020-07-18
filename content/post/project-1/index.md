@@ -27,8 +27,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-This is a review of the ICLR 2017 paper by Zhang et. al. titled "Understanding Deep Learning requires rethinking generalization"
-(https://bengio.abracadoudou.com/cv/publications/pdf/zhang_2017_iclr.pdf)
+This is a review of the ICLR 2017 paper by Zhang et. al. titled "Understanding Deep Learning requires rethinking generalization"<a href = "https://bengio.abracadoudou.com/cv/publications/pdf/zhang_2017_iclr.pdf"> Link to paper </a>
 
 
 The paper starts off with aiming to provide an introspection into what distinguishes networks that generalize well, from those who don’t. 
