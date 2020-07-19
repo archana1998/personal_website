@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Computer Vision, Machine Learning and Deep Learning
+bio: Dedicated and hardworking Machine Learning Researcher. I strive to learn something new every day.
 
 interests:
 - Computer Vision
@@ -29,10 +29,10 @@ education:
   courses:
   - course: BE in Electronics and Instrumentation
     institution: BITS Pilani
-    year: 2016-2021
+    year: 2021
   - course: MSc. in Mathematics
     institution: BITS Pilani
-    year: 2016-2021
+    year: 2021
  # - course: BSc in Artificial Intelligence
  #   institution: Massachusetts Institute of Technology
   #  year: 2008
@@ -53,7 +53,7 @@ social:
 #  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/archana1404
+  link: https://github.com/archana1998
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 - icon: cv
