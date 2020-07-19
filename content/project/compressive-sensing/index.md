@@ -126,7 +126,7 @@ Image denoising is commonly analysed and solved as an inverse problem. A method 
 
 The K-SVD algorithm is a type of K-means clustering, which has been generalized. The k-
 means clustering is also considered a method of doing representation of sparse signals. This
-implies solving the equation below, to find the best code to represent the signal data $\left\{y_{i}\right\}_{i=1}^{M}$
+implies solving the equation below, to find the best code to represent the signal data $$\left\{y_{i}\right\}_{i=1}^{M}$$
 
 $$\min _{D, X}\left\{\|Y-D X\|_{F}^{2}\right\}, \text { subject to } \forall i,\left\|x_{i}\right\|_{0}=1$$
 
