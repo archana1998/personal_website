@@ -117,3 +117,54 @@ Ideally, high values of PSNR, SSIM(max=1) and MSE show favourable performance of
 * PSNR = 23.1362
 * SSIM = 0.6265
 * MSE = 315.8316
+
+## Image Denoising
+
+Image denoising is commonly analysed and solved as an inverse problem. A method of doing this is to decompose the image signal in a sparse way, over a dictionary that is overcomplete. We use the Ramanujan Dictionary here to do the denoising, which is trained with three images using the K-SVD algorithm, based on Orthogonal Matching Pursuit (OMP).
+
+### K-SVD Algorithm
+
+The K-SVD algorithm is a type of K-means clustering, which has been generalized. The k-
+means clustering is also considered a method of doing representation of sparse signals. This
+implies solving the equation below, to find the best code to represent the signal data $\left\{y_{i}\right\}_{i=1}^{M}$.
+
+$$\min _{D, X}\left\{\|Y-D X\|_{F}^{2}\right\}, \text { subject to } \forall i,\left\|x_{i}\right\|_{0}=1$$
+
+F here is the Frobenius norm. The K-SVD algorithm is similar to the K-means in terms of the process of construction, but differs in the sense of the relaxation of the sparsity term in the constraint. This helps achieve a linear combination of the dictionary atoms. The relaxation is that the number of entries that are not zero in each column can be greater than 1, but less than a defined number T<sub>0</sub>.
+
+Thus, the objective function hence becomes
+
+$$\min _{D, X}\left\{\|Y-D X\|_{F}^{2}\right\} \text { , subject to } \forall i,\left\|x_{i}\right\|_{0} \leq T_{0}$$
+
+In the algorithm, the dictionary D is first fixed, and the aim is to find the perfect coefficient matrix X. To find this, a pursuit method that does the approximation of the optimal X is used. OMP was chosen as the suitable method to calculate the coefficients of the matrix here.
+
+### Implementation and Results
+
+In the implementation for training the dictionary  nd the sparse data representation, the
+parameters for the training are as follows:
+
+* Patch Size = 15 
+* Percentage of Overlap = 0.5
+* Sparsity Threshold = 6
+* Error Tolerance = 11.5
+Three images, Boat, Lena and Barbara were used for the dictionary training. Patches were made
+of these images and stacked. The number of iterations was the size of the stacked images that
+formed the training data. In this case, the number was 2883. The dictionary and sparse data
+representation were trained using the K-SVD algorithm and saved, the training process took
+approximately 5.5 hours on an Intel i5 6 th gen processor, with a Nvidia 940mx GPU (personal laptop, using MATLAB R2019a).
+
+{{< figure src="reconmontage1.jpg" title="Original and Reconstructed Boat image" numbered="true" lightbox="false" width=500 >}}
+
+We added Gaussian Noise to a Lena Image and denoised it using the trained dictionary.
+
+{{< figure src="denoised.jpg" title="Original, Noisy and Denoised Lena image" numbered="true" lightbox="false" width=500 >}}
+
+* MSE for noisy image = 68.0747
+* MSE for denoised image = 55.2772
+* PSNR for noisy image = 29.8009
+* PSNR for denoised image = 29.9672
+
+## Summary
+
+The Ramanujan Transform is a powerful transform and basis dictionary that can be used for sparse representation of an image. It can be trained efficiently and reconstructs images in a
+better way as compared to using DCT dictionary. For compressive sensing algorithm, the training time of the Ramanujan dictionary is more compared to the DCT dictionary training time, but it is more efficient in reconstruction. It is also good at denoising images, and is efficiently trained using the K-SVD algorithm.
