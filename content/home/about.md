@@ -12,4 +12,6 @@ title = "About Me"
 # See https://sourcethemes.com/academic/docs/get-started/#introduce-yourself
 author = "admin"
 +++
+<head>
 <meta name="google-site-verification" content="sWPoDBd2Fg8GI4_yroRPVhxsRPo3KGBXqOCRZnRv9og" />
+</head>
