@@ -91,17 +91,16 @@ $$E=\frac{1}{2 N} \sum_{p=1}^{N}\left(y_{p}-y_{p}^{d}\right)^{2}$$
 
 where $\ y_{p}^{d}$ is the desired output and y<sub>p</sub> is the actual output for the p th input that is fed into the multiplicative neural network. The weights and biases of the model are updated using the following rules:
 
-$$\begin{aligned}
-w_{i}^{\text {new}} &=w_{i}^{\text {old}}+\Delta w_{i} \\
-b_{i}^{\text {new}} &=b_{i}^{\text {old}}+\Delta b_{i}
-\end{aligned}$$
+$$w_{i}^{\text {new}} &=w_{i}^{\text {old}}+\Delta w_{i}$$
+
+
+$$b_{i}^{\text {new}} &=b_{i}^{\text {old}}+\Delta b_{i}$$
 
 where
 
-$$\begin{aligned}
-\Delta w_{i} &=-\eta \frac{d \boldsymbol{E}}{d w_{i}}=-\eta \frac{1}{N} \sum_{p=1}^{N}\left(\left(y_{p}-y_{p}^{d}\right) y_{p}\left(1-y_{p}\right) \frac{u}{w_{i} x_{i}+b_{i}} x_{i}\right) \\
-\Delta b_{i} &=-\eta \frac{d \boldsymbol{E}}{d b_{i}}=-\eta \frac{1}{N} \sum_{p=1}^{N}\left(\left(y_{p}-y_{p}^{d}\right) y_{p}\left(1-y_{p}\right) \frac{u}{w_{i} x_{i}+b_{i}}\right)
-\end{aligned}$$
+$$\Delta w_{i} &=-\eta \frac{d \boldsymbol{E}}{d w_{i}}=-\eta \frac{1}{N} \sum_{p=1}^{N}\left(\left(y_{p}-y_{p}^{d}\right) y_{p}\left(1-y_{p}\right) \frac{u}{w_{i} x_{i}+b_{i}} x_{i}\right)$$
+
+$$\Delta b_{i} &=-\eta \frac{d \boldsymbol{E}}{d b_{i}}=-\eta \frac{1}{N} \sum_{p=1}^{N}\left(\left(y_{p}-y_{p}^{d}\right) y_{p}\left(1-y_{p}\right) \frac{u}{w_{i} x_{i}+b_{i}}\right)}$$
 
 $\eta$ is the learning rate parameter. The main purpose of this parameter is to control the convergent speed as desired.
 
@@ -171,16 +170,19 @@ $$\Delta(n)=\left[\sum_{i=1}^{N}\left(x_{i}-y_{i}\right)^{2}\right]^{1 / 2}$$
 
 The weights are calculated using the following rules:
 1. For the hidden-output layer:
+
     a. The error signal for the q th neuron in the output layer is
 
     $$\delta_{q}=m\left(x_{q}-y_{q}\right)$$
 
     b. The updated weight w<sub>2(p, q)</sub> is calculated as:
 
-    $$\begin{array}{c}w_{2(p, q)}(n+1)=w_{2(p, q)}(n)+\Delta w_{2(p, q)}(n+1) \\
-    \Delta w_{2(p, q)}(n+1)=\eta \delta_{q} z_{p}+\alpha\left[\Delta w_{2(p, q)}(n)\right]\end{array}$$
+    $$\begin{array}{c}w_{2(p, q)}(n+1)=w_{2(p, q)}(n)+\Delta w_{2(p, q)}(n+1)\end{array}$$
+    
+    $$\begin{array}{c}\Delta w_{2(p, q)}(n+1)=\eta \delta_{q} z_{p}+\alpha\left[\Delta w_{2(p, q)}(n)\right]\end{array}$$
 
 2. For the input-hidden layer:
+
     a. The error signal for p<sup>th</sup> hidden neuron is calculated using:
 
     $$\delta_{p}=z_{p}\left(1-z_{p}\right)\left[\sum_{k=1}^{N} \delta_{k} w_{1(p,k)}\right]$$
@@ -191,6 +193,7 @@ The weights are calculated using the following rules:
 
 3. After one epoch, let $\Delta(n)$ and $\Delta(n+1)$ be the previous and current errors of the outputs of the neural network respectively. The rule that is followed
 whether to decide if the weights are being updated or not, is:
+
     a. If $\Delta(n+1)>1.04[\Delta(n)]$,
     The new weights, output, keys (always constant), error are
     unchanged, and $\alpha$ is changed to $0.7 \alpha$
