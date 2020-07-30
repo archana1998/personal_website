@@ -77,6 +77,8 @@ In the past, I've had experience with working with Deep Learning in many project
 
 I'm very interested in research in the areas of Image Processing and Computer Vision, and wish to explore different applications in these fields as I motivate and prepare myself for a career as a researcher.
 
+In my free time, I like to read books, play badminton and work out. I like taking long walks and I'm waiting to be able to go on treks and hikes once the pandemic blows over!
+
 I'm actively looking for Research Assistantship / PhD opportunities starting fall 2021. Do get in touch with me if you're up for a chat!
 
 
