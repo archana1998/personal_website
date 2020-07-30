@@ -91,16 +91,17 @@ $$E=\frac{1}{2 N} \sum_{p=1}^{N}\left(y_{p}-y_{p}^{d}\right)^{2}$$
 
 where $\ y_{p}^{d}$ is the desired output and y<sub>p</sub> is the actual output for the p th input that is fed into the multiplicative neural network. The weights and biases of the model are updated using the following rules:
 
-$$w_{i}^{\text {new}} &=w_{i}^{\text {old}}+\Delta w_{i}$$
+
+$$w_{i}^{\text {new}}=w_{i}^{\text {old}}+\Delta w_{i}$$
 
 
-$$b_{i}^{\text {new}} &=b_{i}^{\text {old}}+\Delta b_{i}$$
+$$b_{i}^{\text {new}}=b_{i}^{\text {old}}+\Delta b_{i}$$
 
 where
 
-$$\Delta w_{i} &=-\eta \frac{d \boldsymbol{E}}{d w_{i}}=-\eta \frac{1}{N} \sum_{p=1}^{N}\left(\left(y_{p}-y_{p}^{d}\right) y_{p}\left(1-y_{p}\right) \frac{u}{w_{i} x_{i}+b_{i}} x_{i}\right)$$
+$$\Delta w_{i}=-\eta \frac{d \boldsymbol{E}}{d w_{i}}=-\eta \frac{1}{N} \sum_{p=1}^{N}\left(\left(y_{p}-y_{p}^{d}\right) y_{p}\left(1-y_{p}\right) \frac{u}{w_{i} x_{i}+b_{i}} x_{i}\right)$$
 
-$$\Delta b_{i} &=-\eta \frac{d \boldsymbol{E}}{d b_{i}}=-\eta \frac{1}{N} \sum_{p=1}^{N}\left(\left(y_{p}-y_{p}^{d}\right) y_{p}\left(1-y_{p}\right) \frac{u}{w_{i} x_{i}+b_{i}}\right)}$$
+$$\Delta b_{i}=-\eta \frac{d \boldsymbol{E}}{d b_{i}}=-\eta \frac{1}{N} \sum_{p=1}^{N}\left(\left(y_{p}-y_{p}^{d}\right) y_{p}\left(1-y_{p}\right) \frac{u}{w_{i} x_{i}+b_{i}}\right)}$$
 
 $\eta$ is the learning rate parameter. The main purpose of this parameter is to control the convergent speed as desired.
 
@@ -213,7 +214,7 @@ The keys obtained from the multiplicative neural network are first normalized to
 lie within the range of (0,1). The normalization is simply done by dividing the
 elements of the bias vector by the maximum value of the elements of the vector.
 
-The images that are fed into the neural network must all be of the same dimension, irrespective of them being training images or test images. For this project, images of various dimensions (256*256, 512*512 etc) have been scaled down to a dimension of 50*50. The images of this specified dimension are now segmented into sub images, of the number L (for the purpose of this project, L=100). The size of each sub image is x*x = N pixels, which makes N = 25. The segmentation is done using a custom defined segmentation function, that also converts each sub image into a 1-dimensional vector, and creates a matrix of dimension N*L (25*100) which is then fed in as input to the neural network.
+The images that are fed into the neural network must all be of the same dimension, irrespective of them being training images or test images. For this project, images of various dimensions (256 x 256, 512 x 512 etc) have been scaled down to a dimension of 50 x 50. The images of this specified dimension are now segmented into sub images, of the number L (for the purpose of this project, L=100). The size of each sub image is x times x = N pixels, which makes N = 25. The segmentation is done using a custom defined segmentation function, that also converts each sub image into a 1-dimensional vector, and creates a matrix of dimension N x L (25 x 100) which is then fed in as input to the neural network.
 
 Once the network is trained with the training set, it is ready to encrypt and decrypt images. The test images are segmented using the same segmentation function which was used to segment the training images, and are fed into the trained neural network as input.
 
