@@ -21,7 +21,7 @@ date_format = "Jan 2006"
  [[item]]
   organization = "Google Research India"
   organization_url = ""
-  title = "AI Summer School organised by Google Research India"
+  title = "AI Summer School organised by Google Research"
   url = "https://sites.google.com/view/aisummerschool2020/home"
   certificate_url = ""
   date_start = "2020-08-20"
