@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Contactless Gesture Recognition"
-summary: ""
+summary: "A contactless gesture recognition system that uses IR Proximity Sensors to classify different hand gestures. Interfaced with VLC Media player to pause and play videos."
 authors: [Archana Swaminathan]
 tags: [Electronics]
 categories: [Undergraduate Projects]
@@ -54,14 +54,14 @@ The first two types of systems need the users to hold and contact certain device
 
 Components Used and Setup:
 The components we used are:
-    1. Breadboard
-    2. Arduino Uno Microcontroller
-    3. 2 digital IR Sensors
-    4. Jumper wires
-    5. Laptop for interfacing
+    - Breadboard
+    - Arduino Uno Microcontroller
+    - 2 digital IR Sensors
+    - Jumper wires
+    - Laptop for interfacing
 Languages used:
-    1. Arduino IDE (Based on C++)
-    2. Python (for interfacing sensor output with VLC)
+    - Arduino IDE (Based on C++)
+    - Python (for interfacing sensor output with VLC)
 
 We connected two IR sensors to the Breadboard, placed at a distance of approximately 3 cm from each other. These were then interfaced with the Arduino Uno, which was connected to the laptop. 
 
@@ -95,13 +95,13 @@ We have integrated the recognition system with VLC, to control playback of the v
 
 # Further scope
 
-    1. Friendly user interface that can be easily understood by any user and eventually its application can be extended to more applications like PDF reader, video games etc.
-    2. Computationally inexpensive and low power consuming hardware and software setup, that makes it ideal for integrating with any device, both simple and complex.
+    - Friendly user interface that can be easily understood by any user and eventually its application can be extended to more applications like PDF reader, video games etc.
+    - Computationally inexpensive and low power consuming hardware and software setup, that makes it ideal for integrating with any device, both simple and complex.
                                      
 # Limitations
 
-    1. Ambient light obstructs the functioning as is the case with infrared sensors, as they are extremely sensitive. A proper optical barrier must be used to prevent this.
-    2. We have assumed values of time delays between gestures according to what worked well for our test dataset. This leads to the system being slightly inflexible with different speeds of gestures. 
+    - Ambient light obstructs the functioning as is the case with infrared sensors, as they are extremely sensitive. A proper optical barrier must be used to prevent this.
+    - We have assumed values of time delays between gestures according to what worked well for our test dataset. This leads to the system being slightly inflexible with different speeds of gestures. 
 
 
 
