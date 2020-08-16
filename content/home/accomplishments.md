@@ -41,7 +41,7 @@ date_format = "Jan 2006"
   * Got through Round 2, which was a Brief Idea Submission for building a Fashion Intelligence System for E-Commerce products.
   * Our idea got selected for Round 3, where we submitted a demo of the working end-to-end solution. Was one of the final 50 teams.
   * Results for National Finals awaited.
-  "
+  """
   
 
 +++
