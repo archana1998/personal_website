@@ -43,9 +43,9 @@ slides: ""
 # Introduction
 
 Gesture Recognition Systems are commonly utilized as an interface between computers and humans, along with interacting with many electronic instruments. These systems can be classified into three classes as follows:
-1. Motion-based: When the user holds a device or a controller that detects the gesture made.
-2. Touch-based: When the system includes a touch-screen and the positions and directions of the finger or equivalent tool of the user are mapped, thus recognizing the gesture.
-3. Vision-based: When the system makes use of image and signal processing to detect gestures made without touching any device.
+* Motion-based: When the user holds a device or a controller that detects the gesture made.
+* Touch-based: When the system includes a touch-screen and the positions and directions of the finger or equivalent tool of the user are mapped, thus recognizing the gesture.
+* Vision-based: When the system makes use of image and signal processing to detect gestures made without touching any device.
 
 
 The first two types of systems need the users to hold and contact certain devices, for the gesture recognition, and vision-based systems use camera setups, image processing and techniques that involve computer vision. These systems are difficult to set up for small scale use and are also expensive and extremely power hungry. For building a system that needs to function when there are limited resources available, it is important that the setup cost, power consumption and ease and size of setup is taken into consideration. Keeping this in mind, we have built a contactless gesture recognition system that consists of a couple of digital infrared sensors, that have been programmed to do the gesture recognition using a custom algorithm, with an Arduino Uno Microcontroller.
@@ -54,14 +54,14 @@ The first two types of systems need the users to hold and contact certain device
 
 Components Used and Setup:
 The components we used are:
-    - Breadboard
-    - Arduino Uno Microcontroller
-    - 2 digital IR Sensors
-    - Jumper wires
-    - Laptop for interfacing
+  * Breadboard
+  * Arduino Uno Microcontroller
+  * 2 digital IR Sensors
+  * Jumper wires
+  * Laptop for interfacing
 Languages used:
-    - Arduino IDE (Based on C++)
-    - Python (for interfacing sensor output with VLC)
+  * Arduino IDE (Based on C++)
+  * Python (for interfacing sensor output with VLC)
 
 We connected two IR sensors to the Breadboard, placed at a distance of approximately 3 cm from each other. These were then interfaced with the Arduino Uno, which was connected to the laptop. 
 
@@ -95,13 +95,13 @@ We have integrated the recognition system with VLC, to control playback of the v
 
 # Further scope
 
-    - Friendly user interface that can be easily understood by any user and eventually its application can be extended to more applications like PDF reader, video games etc.
-    - Computationally inexpensive and low power consuming hardware and software setup, that makes it ideal for integrating with any device, both simple and complex.
+  * Friendly user interface that can be easily understood by any user and eventually its application can be extended to more applications like PDF reader, video games etc.
+  * Computationally inexpensive and low power consuming hardware and software setup, that makes it ideal for integrating with any device, both simple and complex.
                                      
 # Limitations
 
-    - Ambient light obstructs the functioning as is the case with infrared sensors, as they are extremely sensitive. A proper optical barrier must be used to prevent this.
-    - We have assumed values of time delays between gestures according to what worked well for our test dataset. This leads to the system being slightly inflexible with different speeds of gestures. 
+  * Ambient light obstructs the functioning as is the case with infrared sensors, as they are extremely sensitive. A proper optical barrier must be used to prevent this.
+  * We have assumed values of time delays between gestures according to what worked well for our test dataset. This leads to the system being slightly inflexible with different speeds of gestures. 
 
 
 
