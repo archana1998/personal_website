@@ -37,6 +37,7 @@ date_format = "Jan 2006"
   date_start = "2018-06-16"
   date_end = "2020-08-28"
   description = """
+  Took part in the Flipkart GRiD Hackathon, a nationwide, prestigious machine learning hackathon.
   * Finished 37th in Round 1 (3rd in our university), out of 15,000 registereed teams, which was an online quiz
   * Got through Round 2, which was a Brief Idea Submission for building a Fashion Intelligence System for E-Commerce products.
   * Our idea got selected for Round 3, where we submitted a demo of the working end-to-end solution. Was one of the final 50 teams.
