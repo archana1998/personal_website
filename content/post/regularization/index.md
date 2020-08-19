@@ -3,10 +3,10 @@
 
 title: "Understanding Deep Learning requires rethinking generalization"
 subtitle: ""
-summary: "A short and concise review"
-authors: []
-tags: []
-categories: []
+summary: "A short and concise review of the ICLR paper"
+authors: [Archana Swaminathan]
+tags: [Machine Learning]
+categories: [Reviews]
 date: 2020-07-18T14:11:22+05:30
 lastmod: 2020-07-18T14:11:22+05:30
 featured: false

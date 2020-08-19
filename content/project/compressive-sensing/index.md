@@ -4,7 +4,7 @@ markup: mmark
 title: "Compressive Sensing and Denoising of Images using the Ramanujan Fourier Transform"
 summary: "Used the Ramanujan Fourier Transform to do compressive sensing and denoising of images in the Ramanujan domain,using the Ramanujan basis as the overcomplete dictionary and trained the dictionary with K-SVD based on OMP algorithm"
 authors: [Archana Swaminathan]
-tags: [Image Processing]
+tags: [Image Processing, Signal Processing]
 categories: [Undergraduate Projects]
 date: 2020-07-18T18:40:47+05:30
 

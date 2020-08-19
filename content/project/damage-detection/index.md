@@ -4,7 +4,7 @@
 title: "Structural Damage Detection using ConvNets"
 summary: "Used ConvNets to detect tornado damage done to buildings, using semantic segmentation."
 authors: [Archana Swaminathan]
-tags: [Computer Vision]
+tags: [Computer Vision, Machine Learning]
 categories: [Undergraduate Projects]
 date: 2020-08-16T21:12:27+05:30
 

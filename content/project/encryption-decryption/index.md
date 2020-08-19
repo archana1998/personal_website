@@ -2,9 +2,9 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Image Encryption and Decryption using Artificial Neural Networks"
-summary: "Developed a novel algorithm for image encryption using Artificial Neural Networks. Used a Product Neural Network to generate a unique key which served as the bias for the initial ANN, which encrypted and decrypted the image."
+summary: "Developed a novel algorithm for image encryption using Artificial Neural Networks."
 authors: [Archana Swaminathan]
-tags: [Cryptography]
+tags: [Cryptography, Machine Learning]
 categories: [Undergraduate Projects]
 date: 2020-07-30T12:05:59+05:30
 
@@ -27,7 +27,7 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: ""
+url_code: "https://github.com/archana1998/image-encryption"
 url_pdf: ""
 url_slides: ""
 url_video: ""

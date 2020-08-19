@@ -4,10 +4,10 @@
 
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 70  # Order that this section will appear.
+active = true  # Activate this widget? true/false
+weight = 30  # Order that this section will appear.
 
-title = "Recent & Upcoming Talks"
+title = "News"
 subtitle = ""
 
 [content]
@@ -68,3 +68,9 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+
+* <b>Aug 2020:</b>  Got selected to attend the <a href="https://sites.google.com/view/aisummerschool2020/">Google AI Summer School India!</a>
+
+* <b>May 2020:</b>  Joined <a href="https://v-sense.scss.tcd.ie/">V-SENSE, Trinity College Dublin</a> for my undergraduate thesis, mentored by <a href ="https://www.tcd.ie/research/profiles/?profile=smolica">Prof. Aljosa Smolic</a>.
+
+* <b>May 2019:</b> Joined <a href="https://www.bosch.com/research/about-research/research-locations/">Robert Bosch R&D</a> as a Summer Research Intern

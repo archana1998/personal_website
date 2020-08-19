@@ -4,7 +4,7 @@
 title: "Contactless Gesture Recognition"
 summary: "A contactless gesture recognition system that uses IR Proximity Sensors to classify different hand gestures. Interfaced with VLC Media player to pause and play videos."
 authors: [Archana Swaminathan]
-tags: [Electronics]
+tags: [Electronics, Signal Processing]
 categories: [Undergraduate Projects]
 date: 2020-08-16T11:03:12+05:30
 
@@ -17,7 +17,7 @@ external_link: ""
 image:
   caption: ""
   focal_point: ""
-  preview_only: false
+  preview_only: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
@@ -40,7 +40,7 @@ url_video: ""
 slides: ""
 ---
 
-# Introduction
+## Introduction
 
 Gesture Recognition Systems are commonly utilized as an interface between computers and humans, along with interacting with many electronic instruments. These systems can be classified into three classes as follows:
 * Motion-based: When the user holds a device or a controller that detects the gesture made.
@@ -50,7 +50,7 @@ Gesture Recognition Systems are commonly utilized as an interface between comput
 
 The first two types of systems need the users to hold and contact certain devices, for the gesture recognition, and vision-based systems use camera setups, image processing and techniques that involve computer vision. These systems are difficult to set up for small scale use and are also expensive and extremely power hungry. For building a system that needs to function when there are limited resources available, it is important that the setup cost, power consumption and ease and size of setup is taken into consideration. Keeping this in mind, we have built a contactless gesture recognition system that consists of a couple of digital infrared sensors, that have been programmed to do the gesture recognition using a custom algorithm, with an Arduino Uno Microcontroller.
 
-# Problem Solving Methodology
+## Problem Solving Methodology
 
 Components Used and Setup:
 The components we used are:
@@ -63,6 +63,8 @@ Languages used:
   * Arduino IDE (Based on C++)
   * Python (for interfacing sensor output with VLC)
 
+{{< figure src="setup.jpg" title="Setup" numbered="true" lightbox="false" >}}
+
 We connected two IR sensors to the Breadboard, placed at a distance of approximately 3 cm from each other. These were then interfaced with the Arduino Uno, which was connected to the laptop. 
 
 Voltage is applied to the pair of IR LEDs, which in succession emit Infrared light. This light propagates through the air and once it hits the hand (or object), which acts as a hurdle, it is reflected back to the receiver. The LED on the diode glows, thus indicating that an object has been detected.
@@ -73,13 +75,15 @@ Using the concept of states and delay as in Digital Design, we have created two 
 
 We have taken two states in the algorithm into consideration namely Q(t) and Q(t+d) where d is the delay defined. The algorithm is defined such that left sensor and right sensor digital values are checked first and then after the defined delay, both sensors are checked for their Boolean values again and therefore the gesture is recognized and printed on the screen after running the code in the Arduino software. The chip on the Arduino Uno board plugs straight into the laptop’s USB port and supports the computer as a virtual serial port.
 
+{{< figure src="table.jpg" title="State table" numbered="true" lightbox="false" >}}
+
 To make the gesture recognition feature interactive, we have interfaced the output with VLC Media player, so that we can pause, play and rewind/go forward with the playback. To do this interfacing, we have written a Python script, importing the Python library pyautogui, that provides functionality of control of the computer’s keyboard.
 
 
-{{< figure src="setup.jpg" title="Setup" numbered="true" lightbox="false" >}}
 
 
-# Results and Conclusions
+
+## Results and Conclusions
 
 We tested the gesture recognition system for accuracy by using the precision-recall matric. We took in 30 different samples for input.
 The precision is calculated as TP/(TP+FP), where TP denotes the number of true positives and FP denotes the number of false positives.
@@ -93,12 +97,12 @@ Practical Applications
 We have integrated the recognition system with VLC, to control playback of the video. Similarly, the setup can easily be integrated with any mobile device that is low on resources, as well as used with complex devices, as IR sensors are fundamental in building light reflection systems and are extremely versatile.
 
 
-# Further scope
+## Further scope
 
   * Friendly user interface that can be easily understood by any user and eventually its application can be extended to more applications like PDF reader, video games etc.
   * Computationally inexpensive and low power consuming hardware and software setup, that makes it ideal for integrating with any device, both simple and complex.
                                      
-# Limitations
+## Limitations
 
   * Ambient light obstructs the functioning as is the case with infrared sensors, as they are extremely sensitive. A proper optical barrier must be used to prevent this.
   * We have assumed values of time delays between gestures according to what worked well for our test dataset. This leads to the system being slightly inflexible with different speeds of gestures. 
