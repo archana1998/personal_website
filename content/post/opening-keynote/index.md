@@ -77,13 +77,13 @@ Many of these challenges and advances in the field of engineering and technology
 This brought in light the desire to have large model architectures that are sparsely activated, that desirably have huge remembering capacity but utilize only a small fraction of the model while testing with individual examples
 An example of this is the Per-Example Routing architecture.
 
-Jeff highlighted one of the most major contributions from Google towards deep learning, the introduction of the open-source deep learning library <a href="https://www.tensorflow.org/">Tensorflow</a>. It remains the most popular and most downloaded Deep Learning Library until date, and has a vibrant open-source community, to the extent that only 1/3^{rd} of the current contributors are employees of Google!
+Jeff highlighted one of the most major contributions from Google towards deep learning, the introduction of the open-source deep learning library <a href="https://www.tensorflow.org/">Tensorflow</a>. It remains the most popular and most downloaded Deep Learning Library until date, and has a vibrant open-source community, to the extent that only 1/3<sup>rd</sup> of the current contributors are employees of Google!
 
 ### Computer architecture for Deep Learning
 
 There was a time in the past where complex problems couldn't be solved because of the lack of computational power. We have finally made strides that do not restrict the power available to us, so optimizing this is an important task. 
 Google AI has been focusing on redesigning computers, as Deep Learning has transformed this field completely. They kept two main things in mind while devising a computer to do deep learning:
-* First is, reduced precision is okay. The computer does not have to calculate results acccurately to the 10^{th} or 20^{th} decimal point. 
+* First is, reduced precision is okay. The computer does not have to calculate results acccurately to the 10<sup>th</sup> or 20<sup>th</sup> decimal point. 
 * Second is, there are mostly only a handful of specific operations that constitute the math of Deep Learning, for example matrix multiplication, dot products, etc.
 
 Keeping these in mind, Google introduced the <a href="https://cloud.google.com/tpu/docs/tpus">Tensor Processing Unit</a>, that does just this. We can connect TPUs together to form Pods, that are currently available to the public on cloud services. Pods can be connected together to make supercomputers, that can train architectures like ResNet50 and Inceptionv2 in under 30 seconds! TPUs are being designed for edge applications also, to do deep learning on smartphones.
