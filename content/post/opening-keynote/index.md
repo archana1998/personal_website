@@ -5,8 +5,8 @@ title: "Opening Keynote at the Google AI Summer School, 2020"
 subtitle: ""
 summary: " The opening keynote was delivered by Jeff Dean, Head of Google AI and moderated by Manish Gupta, Director of Google AI Research, Bangalore"
 authors: [Archana Swaminathan]
-tags: [Google AI Summer School, Machine Learning, Deep Learning]
-categories: [Experiences]
+tags: [Machine Learning, Deep Learning]
+categories: [Google AI Summer School, Experiences]
 date: 2020-08-20T10:53:53+05:30
 lastmod: 2020-08-20T10:53:53+05:30
 featured: false

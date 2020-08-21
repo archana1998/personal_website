@@ -34,7 +34,7 @@ date_format = "Jan 2006"
   title = "Round 3 of Flipkart GRiD"
   url = "https://dare2compete.com/o/flipkart-grid-20-software-development-challenge-flipkart-grid-20-flipkart-113664"
   certificate_url = ""
-  date_start = "2018-06-16"
+  date_start = "2020-06-16"
   date_end = "2020-08-28"
   description = """
   Took part in the Flipkart GRiD Hackathon, a nationwide, prestigious machine learning hackathon.
