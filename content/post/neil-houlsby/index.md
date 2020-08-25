@@ -4,7 +4,7 @@
 title: "Summer School Series: Lecture 2 by Neil Houlsby"
 subtitle: ""
 summary: "This lecture was delivered by Neil Houlsby, currently working in Google Brain, Zurich, on Large Scale Visual Representation Learning"
-authors: []
+authors: [Archana Swaminathan]
 tags: [Machine Learning, Computer Vision]
 categories: [Google AI Summer School, Experiences]
 date: 2020-08-21T23:11:51+05:30
