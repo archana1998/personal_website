@@ -6,7 +6,7 @@ subtitle: ""
 summary: "This lecture was presented by Cristian Sminchisescu, a professor at Lund University and working at Google Research. The lecture was titled End-to-end Generative 3D Human Shape and Pose models, and active human sensing"
 authors: [Archana Swaminathan]
 tags: [Computer Vision, 3D Reconstruction]
-categories: []
+categories: [Google AI Summer School, Experiences]
 date: 2020-08-25T16:11:56+05:30
 lastmod: 2020-08-25T16:11:56+05:30
 featured: false

@@ -3,7 +3,7 @@
 
 title: "Summer School Series: Lecture 3 by Vineet Gupta"
 subtitle: ""
-summary: "This lecture was delivered by Vineet Gupta, a scientist working in the Machine Learning theory group in Google Brain"
+summary: "This lecture was delivered by Vineet Gupta, a scientist working in the Machine Learning theory group in Google Brain, on Adaptive Optimization"
 authors: [Archana Swaminathan]
 tags: [Machine Learning, Mathematics]
 categories: [Google AI Summer School, Experiences]
