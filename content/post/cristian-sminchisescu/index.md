@@ -120,3 +120,4 @@ Cristian then talked about his paper <a href="https://openaccess.thecvf.com/cont
 - Humans are reasonably consistent at identifying contacts at 9 and 17 region granularity, and contact can be predicted with reasonable accuracy too
 - Contact-constrained 3D human reconstruction produces considerably better and more meaningful estimates, compared to non-contact methods
 
+Cristian then concluded his wonderful lecture that talked about the most recent advances in Computer Vision in the 3D Deep learning field. It was a very informative and engaging lecture.
