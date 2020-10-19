@@ -88,12 +88,12 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "swaminathan.archana11@gmail.com"
+email = "f20160535@hyderabad.bits-pilani.ac.in"
 phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "", city = "Bangalore", region = "Karnataka", postcode = "560076", country = "India", country_code = "IN"}
+address = {street = "", city = "Dublin", region = "County Dublin", postcode = "", country = "Ireland", country_code = "IE"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
