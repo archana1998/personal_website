@@ -79,7 +79,7 @@ I'm very interested in research in the areas of Image Processing and Computer Vi
 
 In my free time, I like to read books, play badminton and work out. I love travelling and eating different desserts that mostly comprise of chocolate. I can't wait to go exploring once this pandemic is done! 
 
-I'm actively looking for Research Assistantship / PhD opportunities starting fall 2021. I am currently based in Dublin, Ireland but I'm open to relocate. Do get in touch with me if you're up for a chat!
+I'm actively looking for Research Assistantship / Visiting Researcher Opportunities starting fall 2021. I am currently based in Dublin, Ireland but I'm open to relocate. Do get in touch with me if you're up for a chat!
 
 
 
