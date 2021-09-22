@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: BITS Pilani Graduate and Computer Vision Researcher
+role: Computer Vision Researcher
 
 # Organizations/Affiliations
 organizations:
@@ -70,16 +70,14 @@ email: ""
 #- Visitors
 ---
 
-Hi! I am Archana Swaminathan, a final year undergraduate student at BITS Pilani, Hyderabad, India. I am currently working as a Visiting Researcher with the <a href ="https://v-sense.scss.tcd.ie/"> V-SENSE Research Group, Trinity College Dublin </a>, and being mentored by <a href = "https://v-sense.scss.tcd.ie/?profile=prof-aljosa-smolic"> Prof. Aljosa Smolic</a>.
-I'm part of a group that is investigating 3D Geometry for Deep Learning, where we focus on applications that extend to Image-based reconstruction, pose estimation and visual computing.  
+Hi! I am Archana Swaminathan, a recent graduate from BITS Pilani, Hyderabad, India. I am currently working as a Faculty Research Assistant at the <a href ="https://www.umiacs.umd.edu/"> University of Maryland, College Park </a>, and being mentored by <a href = "https://www.cs.umd.edu/~abhinav/"> Prof. Abhinav Shrivastava</a>. I'm exploring self-supervised learning for many different applications in computer vision as part of my current research.
 
-In the past, I've had experience with working with Deep Learning in many projects, some of which are: predictive modelling for time series data, image encryption and decryption, compressive image sensing and denoising, semantic segmentation and object recognition. 
+In the past, I've had experience with working with Deep Learning in many projects, some of which are: 3D vision, human shape and pose estimation, dataset benchmarking, predictive modelling for time series data, image encryption and decryption, compressive image sensing and denoising, semantic segmentation and object recognition. 
 
 I'm very interested in research in the areas of Image Processing and Computer Vision, and wish to explore different applications in these fields as I motivate and prepare myself for a career as a researcher.
 
 In my free time, I like to read books, play badminton and work out. I love travelling and eating different desserts that mostly comprise of chocolate. I can't wait to go exploring once this pandemic is done! 
 
-I'm actively looking for Research Assistantship / Visiting Researcher Opportunities starting fall 2021. I am currently based in Bangalore, India but I'm open to relocate. Do get in touch with me if you're up for a chat!
-
+Feel free to contact me if you'd like to know more about my work!
 
 

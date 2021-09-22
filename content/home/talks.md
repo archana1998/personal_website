@@ -69,8 +69,10 @@ subtitle = ""
  css_class = ""
 +++
 
+* <b>Sep 2021:</b>  Joined the <a href="https://sites.google.com/view/aisummerschool2020/">University of Maryland, College Park</a> as a Faculty Research Assistant!
+
 * <b>Aug 2020:</b>  Got selected to attend the <a href="https://sites.google.com/view/aisummerschool2020/">Google AI Summer School India!</a>
 
 * <b>May 2020:</b>  Joined <a href="https://v-sense.scss.tcd.ie/">V-SENSE, Trinity College Dublin</a> for my undergraduate thesis, mentored by <a href ="https://www.tcd.ie/research/profiles/?profile=smolica">Prof. Aljosa Smolic</a>.
 
-* <b>May 2019:</b> Joined <a href="https://www.bosch.com/research/about-research/research-locations/">Robert Bosch R&D</a> as a Summer Research Intern
+* <b>May 2019:</b> Joined <a href="https://www.bosch.com/research/about-research/research-locations/">Robert Bosch R&D</a> as a Summer Research Intern.

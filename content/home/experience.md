@@ -18,15 +18,23 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Faculty Research Assistant"
+  company = "University of Maryland, College Park"
+  company_url = "https://www.umiacs.umd.edu/"
+  location = "College Park, MD, United States"
+  date_start = "2021-09-01"
+  date_end = ""
+  description = """ Working under the guidance of Prof. Abhinav Shrivastava in his Perception and Intelligence Group.
+  """
+[[experience]]
   title = "Visiting Researcher"
   company = "V-SENSE, Trinity College Dublin"
   company_url = "https://v-sense.scss.tcd.ie/"
   location = "Dublin, Ireland"
   date_start = "2020-05-01"
-  date_end = ""
-  description = """ Working under the guidance of Prof. Aljosa Smolic in his team of 20+ researchers in the V-SENSE group, in the domain of 3D Geometry and Deep learning, as part of my undergraduate thesis.
+  date_end = "2021-07-31"
+  description = """ Worked under the guidance of Prof. Aljosa Smolic in his team of 20+ researchers in the V-SENSE group, in the domain of 3D Geometry and Deep learning, as part of my undergraduate thesis.
   """
-
 [[experience]]
   title = "Summer Research Intern"
   company = "Robert Bosch R&D"
