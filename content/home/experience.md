@@ -18,12 +18,21 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Graduate Teaching Assistant"
+  company = "University of Maryland, College Park"
+  company_url = "https://www.umiacs.umd.edu/"
+  location = "College Park, MD, United States"
+  date_start = "2022-08-01"
+  date_end = ""
+  description = """ Teaching Assistant for the course CMSC 422: Introduction to Machine Learning at University of Maryland, College Park.
+  """
+[[experience]]
   title = "Faculty Research Assistant"
   company = "University of Maryland, College Park"
   company_url = "https://www.umiacs.umd.edu/"
   location = "College Park, MD, United States"
   date_start = "2021-09-01"
-  date_end = ""
+  date_end = "2022-07-30"
   description = """ Working under the guidance of Prof. Abhinav Shrivastava in his Perception and Intelligence Group.
   """
 [[experience]]

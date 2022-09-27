@@ -69,6 +69,8 @@ subtitle = ""
  css_class = ""
 +++
 
+* <b>Aug 2022:</b>  Joined the <a href="https://www.umiacs.umd.edu/">University of Maryland, College Park</a> as a PhD Student in Computer Science!
+
 * <b>Sep 2021:</b>  Joined the <a href="https://www.umiacs.umd.edu/">University of Maryland, College Park</a> as a Faculty Research Assistant!
 
 * <b>Aug 2020:</b>  Got selected to attend the <a href="https://sites.google.com/view/aisummerschool2020/">Google AI Summer School India!</a>

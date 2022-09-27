@@ -16,11 +16,10 @@ role: First Year PhD Student
 organizations:
 - name: University of Maryland, College Park
   url: ""
-- name: BITS Pilani
-  url: ""
+
 
 # Short bio (displayed in user profile at end of posts)
-bio: Dedicated and hardworking Machine Learning Researcher. I strive to learn something new every day.
+bio: First year Computer Science PhD Student. Likes images, colors, shapes and pixels.
 
 interests:
 - Computer Vision
