@@ -10,10 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Computer Vision Researcher
+role: First Year PhD Student
 
 # Organizations/Affiliations
 organizations:
+- name: University of Maryland, College Park
+  url: ""
 - name: BITS Pilani
   url: ""
 
@@ -29,10 +31,13 @@ education:
   courses:
   - course: BE in Electronics and Instrumentation
     institution: BITS Pilani
-    year: 2021
+    year: graduated in 2021
   - course: MSc. in Mathematics
     institution: BITS Pilani
-    year: 2021
+    year: graduated in 2021
+  - course: PhD. in Computer Science
+    institution: University of Maryland, College Park
+    year: 2022 - present
  # - course: BSc in Artificial Intelligence
  #   institution: Massachusetts Institute of Technology
   #  year: 2008
@@ -44,7 +49,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:f20160535@hyderabad.bits-pilani.ac.in'  
+  link: 'mailto:swaminathan.archana11@gmail.com'  
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/archana1404/
@@ -70,7 +75,7 @@ email: ""
 #- Visitors
 ---
 
-Hi! I am Archana Swaminathan, a recent graduate from BITS Pilani, Hyderabad, India. I am currently working as a Faculty Research Assistant at the <a href ="https://www.umiacs.umd.edu/"> University of Maryland, College Park </a>, and being mentored by <a href = "https://www.cs.umd.edu/~abhinav/"> Prof. Abhinav Shrivastava</a>. I'm exploring self-supervised learning for many different applications in computer vision as part of my current research.
+Hi! I am Archana Swaminathan, a first year Computer Science PhD student at the <a href ="https://www.umiacs.umd.edu/"> University of Maryland, College Park </a>, and being mentored by <a href = "https://www.cs.umd.edu/~abhinav/"> Prof. Abhinav Shrivastava</a>. I'm currently exploring self-supervised learning for many different applications in computer vision and I'm incredibly interested in working in 3D computer vision as well.
 
 In the past, I've had experience with working with Deep Learning in many projects, some of which are: 3D vision, human shape and pose estimation, dataset benchmarking, predictive modelling for time series data, image encryption and decryption, compressive image sensing and denoising, semantic segmentation and object recognition. 
 
